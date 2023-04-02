@@ -1,0 +1,1024 @@
+body {
+	font-family: verdana;
+	min-height: 100vh;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	margin: 0;
+
+	font-weight: 300;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	display: flex;
+	flex-direction: column;
+}
+
+thead td {
+	font-weight: bold;
+}
+
+tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+td {
+	flex: 1;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	height: 50px;
+	background-color: #f6bd60;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	transition: transform 2s;
+	border-radius: 4px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	font-size: 0.7rem;
+	padding: 0 0.25rem;
+}
+
+.hidden {
+	transform: translateY(70px);
+	transition: transform 2s;
+}
+
+.loginBody {
+	display: flex;
+	justify-content: center;
+	background-image: url('homeLogo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	min-height: calc(100vh - 120px);
+	font-family: 'lato', sans-serif;
+}
+
+.registerBody {
+	display: flex;
+	justify-content: center;
+	background-image: url('welcomeLogo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	min-height: 100%;
+	font-family: 'lato', sans-serif;
+	color: #fff;
+}
+
+.loginContainer {
+	border-radius: 5px;
+	width: 450px;
+	display: flex;
+	padding: 2rem;
+	flex-direction: column;
+	background-color: #fff;
+	color: #84a59d;
+}
+
+.loginContainer h2 {
+	font-weight: 300;
+}
+
+.loginContainer > .oneLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.oneLine span {
+	display: flex;
+	flex-direction: column;
+}
+
+.loginContainer label {
+	margin-bottom: 0.5rem;
+}
+
+.loginContainer input {
+	margin-bottom: 1rem;
+}
+
+.centered {
+	color: #7b9992;
+	display: flex;
+	justify-content: center;
+}
+
+.createAccount {
+	display: flex;
+	color: #7b9992;
+}
+.createAccountButton {
+	text-transform: uppercase;
+	color: #7b9992;
+	letter-spacing: 2px;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: 300;
+	padding: 0.5rem;
+	font-size: 0.5rem;
+}
+
+.createAccountButton:hover {
+	cursor: pointer;
+	background-color: #6c9288;
+}
+
+.past-orders {
+	display: flex;
+	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "lato", sans-serif;;
+  margin: 40px;
+  background-color: white;
+  border-radius: 1px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: #7b9992;
+  text-transform: uppercase;
+}
+
+
+.Home-employee-portal {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem;
+}
+
+body {
+	font-family: verdana;
+	min-height: 100vh;
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	margin: 0;
+
+	font-weight: 300;
+}
+
+i:hover {
+	cursor: pointer;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+table {
+	display: flex;
+	flex-direction: column;
+}
+
+thead td {
+	font-weight: bold;
+}
+
+tr {
+	display: flex;
+	justify-content: space-between;
+}
+
+td {
+	flex: 1;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+a:active {
+	text-decoration: none;
+	color: black;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.bottom-right {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	height: 50px;
+	background-color: #f6bd60;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	transition: transform 2s;
+	border-radius: 4px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	font-size: 0.7rem;
+	padding: 0 0.25rem;
+}
+
+.hidden {
+	transform: translateY(70px);
+	transition: transform 2s;
+}
+
+.loginBody {
+	display: flex;
+	justify-content: center;
+	background-image: url('homeLogo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	min-height: calc(100vh - 120px);
+	font-family: 'lato', sans-serif;
+}
+
+.registerBody {
+	display: flex;
+	justify-content: center;
+	background-image: url('welcomeLogo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	align-items: center;
+	min-height: 100%;
+	font-family: 'lato', sans-serif;
+	color: #fff;
+}
+
+.loginContainer {
+	border-radius: 5px;
+	width: 450px;
+	display: flex;
+	padding: 2rem;
+	flex-direction: column;
+	background-color: #fff;
+	color: #84a59d;
+}
+
+.loginContainer h2 {
+	font-weight: 300;
+}
+
+.loginContainer > .oneLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.oneLine span {
+	display: flex;
+	flex-direction: column;
+}
+
+.loginContainer label {
+	margin-bottom: 0.5rem;
+}
+
+.loginContainer input {
+	margin-bottom: 1rem;
+}
+
+.centered {
+	color: #7b9992;
+	display: flex;
+	justify-content: center;
+}
+
+.createAccount {
+	display: flex;
+	color: #7b9992;
+}
+.createAccountButton {
+	text-transform: uppercase;
+	color: #7b9992;
+	letter-spacing: 2px;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: 300;
+	padding: 0.5rem;
+	font-size: 0.5rem;
+}
+
+.createAccountButton:hover {
+	cursor: pointer;
+	background-color: #6c9288;
+}
+
+.past-orders {
+	display: flex;
+	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "lato", sans-serif;;
+  margin: 40px;
+  background-color: white;
+  border-radius: 1px;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: #7b9992;
+  text-transform: uppercase;
+}
+
+
+.Home-employee-portal {
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	bottom: 0;
+	width: 100%;
+	padding: 1rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.indvName {
+  font-size: 2rem;
+  color: #84a59d;
+}
+
+.indvContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.indvImg {
+  height: 800px;
+  width: auto;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.indvList li {
+  padding-bottom: 2rem;
+}
+.indvListContainer {
+  padding-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pageContainer {
+  display: flex;
+}
+
+.productName {
+  color: #7b9992;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.productPrice {
+  font-size: 1.25rem;
+}
+
+.productTopRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.quickAdd {
+  width: 100px;
+  height: 25px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.quickAdd:hover {
+  background-color: #84a59d;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+/* plant cards on product page */
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.productCard {
+  display: block;
+  width: 250px;
+  height: 300px;
+  list-style: none;
+  margin: 40px;
+  margin-bottom: 6rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+.productCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.filters {
+  width: 208px;
+  min-height: 100vh;
+  background: #84a59d;
+  color: white;
+  min-width: 200px;
+  max-width: 200px;
+  padding: 1.5rem;
+  font-weight: normal;
+  line-height: 2rem;
+}
+
+input[type="checkbox"] {
+  /* -webkit-appearance: none; */
+  width: 14px;
+  margin-right: 10px;
+  height: 20px;
+  background: white;
+  border-radius: 5px;
+  padding: 1.5rem;
+  border: 2px solid #677d76;
+}
+
+.checkboxContainer {
+  display: flex;
+}
+
+.checkboxText {
+  /* -webkit-appearance: none; */
+  margin-top: -3px;
+}
+
+.filterTitle {
+  font-size: 1.25rem;
+  color: #122932;
+  padding-top: 2rem;
+}
+
+.quantityPlant {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #677d76;
+}
+
+.addToCartPlants {
+  padding-top: 1rem;
+}
+
+.addButton {
+  background-color: #7b9992;
+  text-transform: uppercase;
+  color: #fefefd;
+  letter-spacing: 2px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-weight: 300;
+  margin-right: 1rem;
+}
+.badgeContainer {
+  position: relative;
+  background: #fff;
+  margin: 10px;
+  width: 34px;
+}
+.badge {
+  height: 25px;
+  width: 150px;
+  background-color: #84a59d;
+  position: absolute;
+  top: 48px;
+  left: 45px;
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 1rem;
+  /* white-space: nowrap; */
+}
+
+.homeLogo {
+  align-self: center;
+  height: 450px;
+}
+
+.Home {
+  margin: 1rem;
+  display: flex;
+  background-color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+}
+
+.Home div {
+  align-self: center;
+  font-weight: 300;
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+
+.bio {
+  line-height: 2.5;
+  padding-bottom: 1rem;
+}
+
+.welcome-text {
+  margin-right: 2rem;
+}
+
+.App header {
+  /* border-bottom: 1px solid #f5cac3; */
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.App header > div {
+  display: flex;
+  align-items: center;
+}
+
+.App header > div > div > div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.App header h1:hover {
+  cursor: pointer;
+}
+
+.navLogo {
+  padding-left: 1rem;
+  height: 120px;
+}
+
+.Cart {
+  display: flex;
+  margin: 5rem;
+}
+
+.Cart > table {
+  background-color: #fdfaf7;
+  border-radius: 1px;
+  flex: 3;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+}
+
+.Cart h1 {
+  margin: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.Cart thead td {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-weight: 300;
+  padding: 0.5rem;
+}
+
+.Cart thead td:first-child {
+  text-align: left;
+}
+
+.Cart thead tr {
+  background-color: #84a59d;
+  color: white;
+  font-size: 2rem;
+}
+
+.Cart tbody td {
+  padding: 0.25rem;
+}
+
+.Cart-item {
+  display: flex;
+}
+
+.Cart-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Cart-item span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  text-align: left;
+}
+
+.Cart-quantity,
+.Cart-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.Quantity-incrementer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.Quantity-incrementer i:hover {
+  cursor: pointer;
+}
+
+.Cart > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 0.5rem;
+}
+
+.Checkout div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.Cart table img {
+  width: 100px;
+}
+
+.button-large {
+	text-transform: uppercase;
+	background-color: #84a59d;
+	color: #fefefd;
+	letter-spacing: 2px;
+	padding: 1rem;
+	font-size: 1rem;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: 300;
+}
+
+.button-small {
+	text-transform: uppercase;
+	background-color: #84a59d;
+	color: #fefefd;
+	letter-spacing: 2px;
+	border: 0;
+	outline: 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-weight: 300;
+	padding: 0.5rem;
+	font-size: 0.5rem;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #6c9288;
+}
+
+.button-link {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 1rem;
+	padding-left: 10px;
+	font-weight: 700;
+	margin-right: 1rem;
+	color: #84a59d !important;
+	font-weight: 300 !important;
+}
+
+.button-link:hover {
+	cursor: pointer;
+	color: #6c9288;
+}
+
+#product-update-button {
+  background-color: #6c9288;
+  color: white;
+  text-transform: uppercase;
+}
+
+.AdminHome-menu {
+	width: calc(100% - 1rem);
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5rem;
+}
+
+.AdminHome-employee-intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	text-align: center;
+	height: 25vh;
+}
+
+.ProductUpdate {
+	margin: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ProductUpdate-select {
+	flex: 1;
+}
+
+.ProductUpdate-form {
+	flex: 1;
+}
+
+.ProductUpdate-close {
+	width: 100%;
+}
+
+.ProductUpdateForm .NewProductForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.NewProductForm {
+	width: 50vw;
+	margin: 0 25vw;
+}
+
+.ProductUpdateForm label,
+.NewProductForm label {
+	margin-bottom: 1rem;
+	color: #84a59d;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.ProductUpdateForm input,
+.ProductUpdateForm select,
+.NewProductForm input,
+.NewProductForm select {
+	margin-bottom: 2rem;
+}
+
+.plant-form {
+	width: 200px;
+}
+
+.admin-menu {
+	list-style-type: none;
+}
+
+.employee-dashboard {
+	display: flex;
+	justify-content: space-around;
+}
+
+.NewProductForm-error,
+.ProductUpdateForm-error {
+	display: flex;
+	flex-direction: column;
+}
+
+.NewProductForm-error ul,
+.ProductUpdateForm-error ul {
+	list-style: circle !important;
+}
+
+.admin-login {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'lato', sans-serif;
+	margin: 40px;
+	background-color: #fdfaf7;
+	border-radius: 1px;
+	flex-wrap: wrap;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.product-create {
+	display: flex;
+	justify-content: center;
+	/* line-height: 4rem; */
+	margin-right: 20rem;
+	margin-left: 20rem;
+}
+
+
+.editTab {
+  display: flex;
+  justify-content: space-evenly;
+}
+.editTab img {
+  display: flex;
+  vertical-align: bottom;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px #84a59d;
+  cursor: pointer;
+}
+
+.editTab h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: left;
+}
+.editTab h3 {
+  margin-top: 0;
+  text-align: left;
+}
+.editTab .editDetails {
+  margin: 1rem;
+  vertical-align: middle;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  background-color: white;
+  border: 5px #84a59d;
+  padding: 20px;
+  border-color:#84a59d;
+  border-style: ridge;
+}
+
+.editTab input {
+  color: black;
+  background-color: white;
+}
+
+.editTab span {
+  white-space: nowrap;
+  font-family: verdana;
+  font-weight: 300;
+  margin: 0;
+}
+
+.Profile {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  flex-direction: column;
+}
+
+.Profile img {
+  display: flex;
+  vertical-align: bottom;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px #84a59d;
+  border-color: white;
+}
+
+.Profile h1 {
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: left;
+}
+.Profile h3 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.Profile input {
+  color: black;
+  background-color: white;
+}
+
+.Profile span {
+  white-space: nowrap;
+  font-family: verdana;
+  font-weight: 300;
+ word-wrap: break-word
+}
+
+.Profile h6 {
+  margin: 0 auto 0 auto;
+
+}
+
+.Profile button {
+  cursor: pointer;
+}
+
+.Profile h4 {
+  font-family: verdana;
+  font-weight: 300;
+  justify-content: center;
+}
+.Profile table {
+  display: flex;
+  justify-content: flex-start;
+  border-color: #84a59d;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.Profile .userDetails {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color:  white;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+  max-width: 250px;
+  padding: 20px;
+  align-items: flex-start;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 5%);
+  margin: 1rem;
+  vertical-align: middle;
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  outline: 0;
+ overflow: hidden;
+}
+
+.Profile .userDetails .editBtn {
+}
